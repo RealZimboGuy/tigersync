@@ -1,0 +1,9 @@
+# Build artifacts
+/tigersync
+/cmd/tigersync/tigersync
+/cmd/loadgen/loadgen
+*.tigerbeetle
+/bin/
+# stray static-lib extraction artifacts (macOS linker workaround)
+__.SYMDEF
+*.o
