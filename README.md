@@ -5,6 +5,10 @@ Continuously mirror one [TigerBeetle](https://tigerbeetle.com) cluster to anothe
 CDC, no access to data files. tigersync starts from zero, catches up to the
 source, and tails it forever.
 
+## WARNING
+
+* Pending transfers are NOT SUPPORTED with a non zero timeout, this will ERROR and the SYNC will stop
+
 ## What "byte-identical" means here
 
 Every destination account and transfer is identical to the source in **every
